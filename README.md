@@ -21,3 +21,5 @@ python recursive_root.py --train_degrees "5,7,9,11,13,15" --valid_degrees "17,19
 ```
 
 This will train the model to find roots on degree 5,7,9,11,13,15 and test the performance on polynomial degree 17 and 19.
+
+#### Check the presentation inside pdf/ for more details
