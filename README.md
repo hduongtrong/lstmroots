@@ -6,7 +6,7 @@ First model map polynomial coefficients and a point, to the value of the
    polynomial at that point. This is just an LSTM. To run
 
 ```bash
-poly_eval.py --train_degrees "5,10,15" --valid_degrees "20,25"
+python poly_eval.py --train_degrees "5,10,15" --valid_degrees "20,25"
 ```
 
 This will train the model on degree 5, 10, 15, and test on degree 20, 25. It
